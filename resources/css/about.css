@@ -1,0 +1,66 @@
+@media screen and (max-width:1024px) {
+    #about .flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about .width {
+        width: 100%;
+    }
+
+    #about .experience {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gap-28 {
+        gap: 35px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mx-32 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .h-80 {
+        height: 200px;
+    }
+
+    .text-4xl {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .text-lg {
+        font-size: 16px;
+    }
+
+    .text-8xl {
+        font-size: 50px;
+    }
+
+    .text-2xl {
+        font-size: 18px;
+    }
+
+    #about .p-8 {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .mx-32 {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .rounded-50 {
+        width: 250px;
+        height: 250px;
+    }
+}

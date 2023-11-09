@@ -1,0 +1,15 @@
+@media screen and (min-width:1700px) {
+    .navbar {
+        left: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+}

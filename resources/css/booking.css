@@ -1,0 +1,16 @@
+@media screen and (max-width:1063px) {
+    #booking .wrap {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #booking form {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #booking form .width {
+        width: 280px;
+    }
+}

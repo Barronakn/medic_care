@@ -1,0 +1,34 @@
+@media screen and (min-width:1700px) {
+    .navbar {
+        left: 0;
+    }
+}
+
+@media screen and (max-width:1210px) {
+    .timelineResponsive {
+        display: block;
+    }
+
+    .timeline {
+        display: none;
+    }
+
+    .gap-18 {
+        gap: 70px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .text-3xl {
+        font-size: 17px;
+    }
+
+    .circles {
+        display: none;
+    }
+
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+}

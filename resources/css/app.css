@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1700px !important;
+}
+
+body::-webkit-scrollbar {
+    background-color: rgb(203, 220, 255);
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 136, 255);
+    border-radius: 25px;
+}
+
+::selection {
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
+
+::-moz-selection {
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1700px !important;
+}
+
+.diaspro {
+    animation: animate 20s ease infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-image: url("../../public/assets/images/slider/portrait-successful-mid-adult-doctor-with-crossed-arms.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        width: 100%;
+    }
+
+    50% {
+        background-image: url("../../public/assets/images/slider/young-asian-female-dentist-white-coat-posing-clinic-equipment.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        width: 100%;
+    }
+
+    100% {
+        background-image: url("../../public/assets/images/slider/doctor-s-hand-holding-stethoscope-closeup.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        width: 100%;
+    }
+}
+
+.-mt-66 {
+    margin-top: -250px;
+}
+
+.rounded-50 {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+.w-550 {
+    width: 550px;
+}
+
+.border-b-gray {
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.w {
+    width: 2px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.-mt-70 {
+    margin-top: -274px;
+}
+
+.mr-38 {
+    margin-right: 170px;
+}
+
+.navbar-toggle,
+.none {
+    display: none;
+}

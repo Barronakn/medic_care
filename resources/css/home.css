@@ -1,0 +1,47 @@
+@media screen and (max-width:1165px) {
+    .-mt-70 {
+        margin-top: 0;
+    }
+
+    .mr-38 {
+        margin-right: 0;
+    }
+
+    .card {
+        float: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card h1 {
+        font-size: 40px;
+    }
+
+    .card p {
+        font-size: 17px;
+    }
+
+    .card {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:408px) {
+    .card .info {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .diaspro {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
